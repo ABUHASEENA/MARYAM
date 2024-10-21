@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,rgb(144, 144, 173),rgb(221, 19, 120));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(rgb(3, 19, 69));
+    position: relative;
+    color: white;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    color:white;
+    margin: 20px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: navy;
+}
+
+.menu{
+    display: none;
+}
+header ul li:hover .menu{
+display: flex;
+}
+header ul li:hover .menu ul{
+    position: absolute;
+    color:white;
+    display: block;
+    margin-top: 20px;
+    background-image: linear-gradient(navy);
+}
+
+header ul li:hover .menu ul li{
+    border-bottom: 2px solid white;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+    
+button{
+    padding: 20px 100px;
+    background-color: rgb(6, 6, 66);
+    color:white;
+    border: none;
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+}
+.box{
+    background-image: linear-gradient(to right,navy,rgba(255, 0, 0, 0.391));
+    margin: 10px;
+    color: white;
+    padding: 20px;
+}
+
+img{
+    margin:10px;
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}

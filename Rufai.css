@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to right,rgb(10, 199, 57),navy);
+    position: relative;
+}
+
+body{
+    background-image: linear-gradient(to right,rgb(8, 241, 106),navy);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+li{
+    color: white;
+    margin: 20px 50px;
+}
+
+.menu{
+    display: none;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    padding: 20px 50px;
+    background-color: rgb(0, 128, 73);
+    color: white;
+    border: none;
+    animation-name: moveTop;
+    animation-duration: 3s;
+}
+    
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+header ul li:hover .menu{
+display: flex;
+}
+header ul li:hover .menu ul{
+    position: absolute;
+    color: white;
+    display: block;
+    background-image: linear-gradient(to right,rgb(10, 199, 57),navy);
+    margin-top: 30px;
+}
+
+header ul li:hover .menu ul li{
+    border-bottom: 2px solid rgb(68, 0, 255);
+}
+@keyframes moveTop{
+    0%{
+        transform: translateY(-40px);
+    }
+    40%{
+        transform: translate(-70px);
+    }
+    80%{
+        transform: translate(-70px);
+    }
+    100%{
+        transform: translate(-0);
+    }
+}
+main{
+        display: flex;
+        margin-top: 20px;
+        animation-name: moveRight;
+        animation-duration: 3s;
+    }
+
+    .va{
+        background-image: linear-gradient(to right,rgb(10, 199, 57),navy);
+    margin: 30px;
+    color: white;
+    padding: 20px;
+    }
+    
+    @keyframes moveRight{
+        0%{
+            transform: translate(-40px);
+        }
+        40%{
+            transform: translate(-70px);
+        }
+        80%{
+            transform: translate(-70px);
+        }
+        100%{
+            transform: translate(-0);
+        }
+    }

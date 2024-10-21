@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 50px solid navy;
+    height: 100vh;
+    padding: 10px;
+    position: fixed; 
+    overflow: hidden;
+    background-color: orange;
+    color: rgb(20, 19, 19);
+    text-transform: uppercase;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin: 20px;
+}
+
+.contactIcons{
+
+}
+.box1{
+    color: blue;
+    height: 20px;
+}
+.box2{
+    color: red;
+    height: 20px;
+}
+
+.box3{
+    color: blue;
+    height: 20px;
+}
+
+
+.myhoto{
+    position: absolute;
+    width: 70px;
+    background-color: initial;
+    margin-right: 30px;
+}
+
+.hoto{
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 40px;
+}
+.navbar{
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    color: blue;
+    margin-left: 20px;
+}
+
+.mainContain{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
